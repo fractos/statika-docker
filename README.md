@@ -8,7 +8,7 @@ This is the Docker wrapper for [Statika](https://github.com/fractos/statika)
 docker run -t -i --rm \
 	--env CONFIGURATION_URL=<s3-url> \
 	--env SERVICES_URL=<s3-url> \
-	--env REGION=<aws-region> \
+	--env AWS_REGION=<aws-region> \
 	fractos/statika:latest
 ```
 
@@ -18,7 +18,7 @@ e.g.
 docker run -t -i --rm \
 	--env CONFIGURATION_URL=s3://mybucket/statika-conf.json \
 	--env SERVICES_URL=s3://mybucket/statika-services.json \
-	--env REGION=eu-west-1 \
+	--env AWS_REGION=eu-west-1 \
 	fractos/statika:latest
 ```
 
