@@ -1,6 +1,8 @@
 # Statika wrapped in Docker
 
-To run:
+This is the Docker wrapper for [Statika](https://github.com/fractos/statika)
+
+## Running
 
 ```
 docker run -t -i --rm \
